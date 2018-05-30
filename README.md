@@ -1,2 +1,0 @@
-# SoftLikeCoton
-SoftLikeCoton exo simplon
