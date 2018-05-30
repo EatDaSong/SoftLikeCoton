@@ -39,6 +39,15 @@ and open the template in the editor.
     }
 }
 
+@keyframes titreshadow  /*animation ombre*/
+{
+    from {
+        text-shadow: 2px 2px 2px black, -2px -2px 2px white;
+    }   to {
+        text-shadow: 10px 10px 10px black, -10px -10px 10px white;
+} 
+}
+
 /*fin animation*/
 
 #description {
@@ -51,8 +60,10 @@ body {
 
 #titre h1 {
     font-size: 400%;
-    text-shadow: 2px 2px 2px black, -2px -2px 2px white;
     color: #BAE3F7;
+    animation-name: titreshadow;
+    animation-duration: 2s;
+    animation-fill-mode: both;
 }
 
 .footer { /*bandeau footer*/
