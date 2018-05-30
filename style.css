@@ -12,10 +12,10 @@ and open the template in the editor.
 
 @keyframes border {
   from {
-    border: 1px solid;
+    border: 1px solid white;
   }
   to {
-    border: 10px solid #686868;
+    border: 10px solid #BAE3F7;
   }
 }
 
@@ -27,6 +27,15 @@ and open the template in the editor.
     to {
         width: 270px;
         height: 170px;
+    }
+}
+
+@keyframes footer {
+    from {
+        margin-left: -2550px;
+    }
+    to {
+        margin-left: 0px;
     }
 }
 
@@ -43,7 +52,7 @@ body {
 #titre h1 {
     font-size: 400%;
     text-shadow: 2px 2px 2px black, -2px -2px 2px white;
-    color: dimgrey;
+    color: #BAE3F7;
 }
 
 .footer { /*bandeau footer*/
@@ -54,13 +63,15 @@ body {
     width: 100%;
     height: 200px;
     background-color: #686868;
+    animation-name: footer;
+    animation-duration: 1s;
 }
 
 #copyright {
     float: right;
     top:0;
     padding-right: 35px;
-    color: white;
+    color: black;
 }
 
 #conteneur {
@@ -84,7 +95,7 @@ body {
 
 #conteneur:hover {
     border: 2px solid;
-    box-shadow: 5px 3px 3px darkgray;
+    box-shadow: 5px 3px 3px #BAE3F7;
 }
 
 .content {
